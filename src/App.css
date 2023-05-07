@@ -1,13 +1,28 @@
+  @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
-    background-color: #ccc;
+    background-color: rgba(102, 171, 246, 0.727);
+    background-image: url("../public/images/bp3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 h1{
-    font-weight: 900;
+    font-weight: 600;
+    font-family: 'Chivo Mono', monospace;
+    background-color: rgba(151, 117, 226, 0.674);
+    border-radius: 30px;
 }
 
 h2 {
     font-weight: 700;
+}
+
+
+.rounded-circle {
+    max-width: 200px;
+    height:auto
 }
 
 .container {
@@ -16,10 +31,11 @@ h2 {
 
 .carousel-container{
     padding: 15px
+    
 }
 
 .quote-container p {
-    font-size: clamp(23px, 4vw, 26px);
+    font-size: clamp(23px, 10vw, 26px);
     font-weight: 700;
 }
 
@@ -28,9 +44,27 @@ h2 {
 }
 
 .grid-container {
-    background-color: coral; 
+    background-color: rgba(247, 104, 104, 0.627); 
+    border-radius: 50px;
+    font-family: 'Chivo Mono', monospace;
+    padding: 30px;
+    filter: drop-shadow(10px 0px 40px black);
+    border: 5px solid rgba(255, 255, 255, 0.067);
 }
 
 .grid-container h2{
 color: antiquewhite;
+}
+
+.video-container{
+    background-position: center;
+    padding: 30px;
+    
+}
+
+.button{
+    background-color: rgba(224, 5, 5, 0.676);
+    border-color: aliceblue;
+    font-size: 30px;
+    padding: 15px;
 }
